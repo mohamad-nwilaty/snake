@@ -1,0 +1,31 @@
+body{
+    margin-top: 70px;
+}
+.game{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+canvas{
+    border: 2px solid black;
+}
+h1{
+    font-size: 3rem;
+}
+button{
+    width: 70px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(19, 233, 40);
+    border: none;
+    border-radius: 9px;
+    transition: 0.2s;
+}
+button:hover{
+    color: black ;
+    background-color: rgb(20, 180, 36);
+}
