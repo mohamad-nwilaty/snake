@@ -29,3 +29,19 @@ button:hover{
     color: black ;
     background-color: rgb(20, 180, 36);
 }
+.resetScreen{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+#over{
+    color: white;
+    font-size: 4rem;
+}
